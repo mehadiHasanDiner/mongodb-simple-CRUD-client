@@ -33,7 +33,7 @@ const User = () => {
           >
             X
           </button>
-          <Link to={`/user/${user._id}`}> Update</Link>
+          <Link to={`/users/${user._id}`}> Update</Link>
         </p>
       ))}
     </div>
